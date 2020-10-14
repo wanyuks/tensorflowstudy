@@ -14,6 +14,13 @@ x = np.array([ [1,2],[1.5,1.8],[5,8],[8,8],[1,0.6],[9,11] ])
 
 # 把上面数据点分为两组（非监督学习）
 clf = KMeans(n_clusters=2)
+
+
+
+
+
+
+
 clf.fit(x)  # 分组
  
 centers = clf.cluster_centers_ # 两组数据点的中心点
